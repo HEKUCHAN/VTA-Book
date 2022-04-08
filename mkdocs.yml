@@ -6,13 +6,13 @@ theme:
     code: Roboto Mono
   palette:
     - media: "(prefers-color-scheme: light)"
-      primary: black
+      primary: white
       scheme: default
       toggle:
         icon: material/weather-sunny
         name: Switch to dark mode
     - media: "(prefers-color-scheme: dark)"
-      primary: white
+      primary: black
       scheme: slate
       toggle:
         icon: material/weather-night
