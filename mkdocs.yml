@@ -9,13 +9,14 @@ theme:
     - media: "(prefers-color-scheme: light)"
       primary: white
       scheme: default
+      accent: red
       toggle:
         icon: material/weather-sunny
         name: Switch to dark mode
     - media: "(prefers-color-scheme: dark)"
       primary: black
       scheme: slate
-      accent: light blue
+      accent: light green
       toggle:
         icon: material/weather-night
         name: Switch to light mode
