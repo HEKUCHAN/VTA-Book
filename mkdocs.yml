@@ -3,14 +3,16 @@ theme:
   name: material
   palette:
     - media: "(prefers-color-scheme: light)"
+      primary: black
       scheme: default
       toggle:
-        icon: material/toggle-switch-off-outline
+        icon: material/weather-sunny
         name: Switch to dark mode
     - media: "(prefers-color-scheme: dark)"
+      primary: white
       scheme: slate
       toggle:
-        icon: material/toggle-switch
+        icon: material/weather-night
         name: Switch to light mode
 markdown_extensions:
   - tables
