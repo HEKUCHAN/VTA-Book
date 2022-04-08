@@ -3,7 +3,7 @@ theme:
   name: material
   language: ja
   font:
-    text: Kiwi Maru
+    text: Noto Sans Japanese
     code: Roboto Mono
   palette:
     - media: "(prefers-color-scheme: light)"
