@@ -1,6 +1,7 @@
 site_name: My Docs
 theme:
   name: material
+markdown_extensions:
   - pymdownx.superfences:
       custom_fences:
         - name: mermaid
