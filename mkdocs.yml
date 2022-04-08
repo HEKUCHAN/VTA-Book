@@ -18,6 +18,8 @@ theme:
       toggle:
         icon: material/weather-night
         name: Switch to light mode
+extra_css:
+  - stylesheets/scheme.css
 markdown_extensions:
   - tables
   - def_list
