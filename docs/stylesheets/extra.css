@@ -1,3 +1,4 @@
 [data-md-color-scheme="main"] {
     --md-default-bg-color: #222 !important;
+    --md-default-bg-color--light: white !important;
 }
