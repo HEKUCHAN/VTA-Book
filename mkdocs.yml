@@ -14,12 +14,12 @@ theme:
         name: Switch to dark mode
     - media: "(prefers-color-scheme: dark)"
       primary: black
-      scheme: dark
+      scheme: main
       toggle:
         icon: material/weather-night
         name: Switch to light mode
 extra_css:
-  - stylesheets/scheme.css
+  - stylesheets/extra.css
 markdown_extensions:
   - tables
   - def_list
