@@ -1,6 +1,9 @@
 site_name: My Docs
 theme:
   name: material
+  font:
+    text: M PLUS Rounded 1c
+    code: Roboto Mono
   palette:
     - media: "(prefers-color-scheme: light)"
       primary: black
