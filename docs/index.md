@@ -1,4 +1,6 @@
-# Welcome to MkDocs
+# ようこそ！　MkDocsへ！
+
+テストテストテスト
 
 For full documentation visit [mkdocs.org](https://www.mkdocs.org).
 
