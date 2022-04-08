@@ -1,19 +1,23 @@
-# はじまり
+# はじめに
 
-テストテストテスト
+**VTA Python Bookへようこそ〜** :wave:
+バンタンテックフォードアカデミーの一年生の間に授業で習うものを
+わかりやすく仕えようと頑張っている入門書です。
+主に一年生で扱ったり深く勉強しないところまで取り扱います。
+所々授業でやらないような内容も出てくると思いますが、
+楽しんでくれると幸いです :heart:
 
-For full documentation visit [mkdocs.org](https://www.mkdocs.org).
 
-## Commands
+私が勝手に学校のロゴを使っているので怒られるかもしれません。:fearful:
 
-* `mkdocs new [dir-name]` - Create a new project.
-* `mkdocs serve` - Start the live-reloading docs server.
-* `mkdocs build` - Build the documentation site.
-* `mkdocs -h` - Print help message and exit.
+## この本の使い方
+この本は、好きな使ってくれても構いません。
+授業の復習、予習、辞書のような使い方をしてもいいですし、
+とりあえず知識を得るために読むのもいいと思います。
+ただ、本を読むだけでなく、コードを書き、実行し、処理を多少変更などをして
+うまく使ってほしいです。
+先生も言っていましたが「コピペするよりもコードを書いた方がいい」
+これにつきます。慣れることもできますし、コードがどいう処理をしているのかを把握しやすくなるでしょう。
 
-## Project layout
-
-    mkdocs.yml    # The configuration file.
-    docs/
-        index.md  # The documentation homepage.
-        ...       # Other markdown pages, images and other files.
+## 全てのソースコードはGithub上で見つかります。
+※ 工事中 :construction_worker:
