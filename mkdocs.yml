@@ -2,7 +2,7 @@ site_name: My Docs
 theme:
   name: material
   palette:
-    primary: white
+    primary: black
 markdown_extensions:
   - tables
   - def_list
