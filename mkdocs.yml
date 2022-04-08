@@ -1,6 +1,7 @@
 site_name: My Docs
 theme:
   name: material
+  language: ja
   font:
     text: Kiwi Maru
     code: Roboto Mono
