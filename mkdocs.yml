@@ -2,7 +2,7 @@ site_name: My Docs
 theme:
   name: material
   font:
-    text: M PLUS Rounded 1c
+    text: Kiwi Maru
     code: Roboto Mono
   palette:
     - media: "(prefers-color-scheme: light)"
