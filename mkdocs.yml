@@ -3,7 +3,7 @@ theme:
   name: material
   language: ja
   font:
-    text: Roboto
+    text: Noto Sans JP
     code: Roboto Mono
   palette:
     - media: "(prefers-color-scheme: light)"
