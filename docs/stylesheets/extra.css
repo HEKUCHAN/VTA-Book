@@ -1,5 +1,5 @@
 [data-md-color-scheme="main"] {
-    --md-primary-fg-color: #222;
-    --md-primary-fg-color--light: #222;
-    --md-primary-fg-color--dark: #222;
+    --md-default-bg-color: #222;
+    --md-default-bg-color--light: #222;
+    --md-default-bg-color--dark: #222;
 }
