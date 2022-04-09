@@ -26,6 +26,7 @@ theme:
       cards_color:
         fill: "#0FF1CE"
         text: "#FFFFFF"
+      cards_directory: assets/images/social
     - search:
         lang:
           - ja
