@@ -22,6 +22,7 @@ theme:
   plugins:
     - tags
     - social:
+      cards: true
       cards_color:
         fill: "#0FF1CE"
         text: "#FFFFFF"
