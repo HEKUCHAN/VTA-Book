@@ -102,7 +102,7 @@ nav:
         - 1.1a. Pythonインストール MacOS: chapter-1/1.1a-macos-install.md
         - 1.1b. Pythonインストール Windows10: chapter-1/1.1b-windows-install.md
       - 1.2 VSCodeのインストールと設定:
-        - 1.2.0 VSCodeとは？: chapter-1/1.2.0-what-VSCode.md
+        - 1.2.0 コードエディターとは？: chapter-1/1.2.0-what-CodeEditor.md
         - 1.2.1 VSCodeのインストール: chapter-1/1.2.1-install-VSCode.md
         - 1.2.2 VSCodeの設定: chapter-1/1.2.2-setup-VSCode.md
         - 1.2.3 VSCodeのおすすめプラグイン: chapter-1/1.2.3-plugin-VSCode.md
