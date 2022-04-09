@@ -38,6 +38,16 @@
 一様、調べながら間違っていないのか？などを寄与つけながら記述しています。
 もし、間違えがありましたらコメントまたはgithub宛てによろしくお願いします。
 
+## 質問やお問い合わせについて
+質問やお問い合わせは、気軽に
+
+- [:fontawesome-brands-twitter: Twitter](https://twitter.com/Heitor_Hirose)
+- [:fontawesome-brands-github: Github](https://github.com/HEKUCHAN)
+- [:material-email: Email](mailto:Heitorhirose@gmail.com)
+- [:fontawesome-brands-instagram: Instagram](https://www.instagram.com/hirose_heitor/)
+
+までよろしくお願いします。
+
 !!! note 参考にしたサイトについて
     学習、復習、参考などに使わせていただいたサイトは各ページの ==**参考文献一覧**== に載せております。
 
