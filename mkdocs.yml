@@ -21,12 +21,7 @@ theme:
     - search.share
   plugins:
     - tags
-    - social:
-      cards: true
-      cards_color:
-        fill: "#0FF1CE"
-        text: "#FFFFFF"
-      cards_directory: assets/images/social
+    - privacy
     - search:
         lang:
           - ja
@@ -95,6 +90,7 @@ extra:
       link: https://www.instagram.com/hirose_heitor/
 extra_javascript:
   - javascripts/mathjax.js
+  - javascripts/shortcuts.js
   - https://polyfill.io/v3/polyfill.min.js?features=es6
   - https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js
 
