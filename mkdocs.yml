@@ -1,4 +1,8 @@
 site_name: VTA Python Book
+site_description: 'テックフォードアカデミー1年生で学ぶ事を復習'
+site_author: 'Heitor Hiorse'
+site_url: 'https://hekuchan.github.io/VTA-Python-Book/'
+
 theme:
   name: material
   language: ja
