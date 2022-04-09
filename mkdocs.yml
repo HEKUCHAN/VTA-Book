@@ -81,4 +81,7 @@ extra_javascript:
 nav:
   - はじめに: index.md
   - Python基礎:
-      - 1.0. Pythonなどのプログラミングの世界: chapter-1/python-world.md
+      - 1.0. Pythonなどのプログラミングの世界: chapter-1/1-python-world.md
+      - 1.1 Pythonのインストール:
+        - 1.1a. Pythonインストール MacOS: chapter-1/2a-macos-install.md
+        - 1.1b. Pythonインストール Windows10: chapter-1/2b-windows-install.md
