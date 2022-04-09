@@ -3,6 +3,8 @@ site_description: 'テックフォードアカデミー1年生で学ぶ事を復
 site_author: 'Heitor Hiorse'
 site_url: 'https://hekuchan.github.io/VTA-Python-Book/'
 
+copyright: 'Copyright &copy; 2022 Heitor Hirose'
+
 theme:
   name: material
   language: ja
