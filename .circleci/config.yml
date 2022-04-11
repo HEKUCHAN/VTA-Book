@@ -12,9 +12,7 @@ jobs:
       image: ubuntu-2004:202201-02
     steps:
       - checkout
-      - add_ssh_keys:
-          fingerprints:
-            - "${KEY_FINGERPRINT}"
+      - add_ssh_keys
       - run:
         name: Add github.com to known hosts
         command: ssh-keyscan github.com >> ~/.ssh/known_hosts
