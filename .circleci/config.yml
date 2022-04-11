@@ -9,7 +9,7 @@ jobs:
       - checkout
   deploy:
     machine:
-      enabled: true
+      image: ubuntu-2004:202201-02
     steps:
       - checkout
       - add_ssh_keys:
@@ -17,8 +17,7 @@ jobs:
             - "${KEY_FINGERPRINT}"
       - run:
           name: Add github.com to known hosts
-          command: ssh-keyscan github.com >> ~/.ssh/known_hosts
-      - run:
+          command: ssh-keyscan -H ${HOST_NAME} >> ~/.ssh/known_hosts
       - run:
           name: SSH
           command: ssh -o StrictHostKeyChecking=no -o UserKnownHostsFile=/dev/null ${USER_NAME}@${HOST_NAME} 'cd /var/www/VTA-Python-Book/ && sudo git pull'
