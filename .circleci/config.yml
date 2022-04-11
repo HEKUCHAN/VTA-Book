@@ -17,7 +17,7 @@ jobs:
             - "${KEY_FINGERPRINT}"
       - run:
           name: SSH
-          command: ssh -v ${USER_NAME}@${HOST_NAME} 'cd /var/www/VTA-Python-Book/ && git pull'
+          command: ssh -o StrictHostKeyChecking=no ${USER_NAME}@${HOST_NAME} 'cd /var/www/VTA-Python-Book/ && git pull'
 
 workflows:
   build:
