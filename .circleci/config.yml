@@ -16,8 +16,8 @@ jobs:
           fingerprints:
             - "${KEY_FINGERPRINT}"
       - run:
-          name: Add github.com to known hosts
-          command: ssh-keyscan github.com >> ~/.ssh/known_hosts
+          name: Add to known hosts
+          command: ssh-keyscan -H ${HOST_NAME} >> ~/.ssh/known_hosts
       - run:
           name: SSH
           command: ssh -o StrictHostKeyChecking="no" -o UserKnownHostsFile="/dev/null" ${USER_NAME}@${HOST_NAME} 'cd /var/www/VTA-Python-Book/ && git pull'
