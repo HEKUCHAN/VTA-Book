@@ -2,7 +2,7 @@ site_name: VTA Python Book
 site_description: 'テックフォードアカデミー1年生で学ぶ事を復習'
 site_author: 'Heitor Hiorse'
 site_url: 'https://docs.hekuta.net/'
-repo_url: https://github.com/HEKUCHAN/VTA-Python-Book/tree/main
+repo_url: https://github.com/HEKUCHAN/VTA-Python-Book/
 repo_name: HEKUCHAN/VTA-Python-Book
 
 copyright: 'Copyright &copy; 2022 Heitor Hirose'
