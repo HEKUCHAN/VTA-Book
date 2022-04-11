@@ -1,7 +1,7 @@
 site_name: VTA Python Book
 site_description: 'テックフォードアカデミー1年生で学ぶ事を復習'
 site_author: 'Heitor Hiorse'
-site_url: 'https://hekuchan.github.io/VTA-Python-Book/'
+site_url: 'https://docs.hekuta.net/'
 repo_url: https://github.com/HEKUCHAN/VTA-Python-Book/tree/main
 repo_name: HEKUCHAN/VTA-Python-Book
 
@@ -110,3 +110,4 @@ nav:
         - 1.2.2 VSCodeの設定: chapter-1/1.2.2-setup-VSCode.md
         - 1.2.3 VSCodeのおすすめプラグイン: chapter-1/1.2.3-plugin-VSCode.md
       - 1.3 Pythonのインタプリタで遊んでみよう: chapter-1/1.3.0-interpreter.md
+      - 1.4 おすすめのファイル管理方法: chapter-1/1.4.0-how-to-save-files.md
