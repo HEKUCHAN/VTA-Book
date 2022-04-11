@@ -12,10 +12,15 @@ jobs:
       enabled: true
     steps:
       - checkout
-      - add_ssh_keys
+      - add_ssh_keys:
+          fingerprints:
+            - "${KEY_FINGERPRINT}"
       - run:
-        name: Add github.com to known hosts
-        command: ssh-keyscan github.com >> ~/.ssh/known_hosts
+          name: Add github.com to known hosts
+          command: ssh-keyscan github.com >> ~/.ssh/known_hosts
+      - run:
+          name: Add github.com to known hosts
+          command: ssh-keyscan github.com >> ~/.ssh/known_hosts
       - run:
           name: SSH
           command: ssh ${USER_NAME}@${HOST_NAME} 'cd /var/www/VTA-Python-Book/ && git pull'
