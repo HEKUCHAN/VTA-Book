@@ -12,9 +12,7 @@ jobs:
       image: ubuntu-2004:202201-02
     steps:
       - checkout
-      - add_ssh_keys:
-          fingerprints:
-            - "${KEY_FINGERPRINT}"
+      - add_ssh_keys
       - run:
           name: SSH
           command: ssh ${USER_NAME}@${HOST_NAME} 'cd /var/www/VTA-Python-Book/ && git pull'
