@@ -8,8 +8,8 @@ jobs:
     steps:
       - checkout
   deploy:
-    machine:
-      image: circleci/classic:edge
+    docker:
+      - image: ubuntu:latest
     steps:
       - checkout
       - add_ssh_keys:
