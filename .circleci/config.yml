@@ -20,7 +20,7 @@ jobs:
           command: ssh-keyscan -H ${HOST_NAME} >> ~/.ssh/known_hosts
       - run:
           name: SSH
-          command: ssh -o StrictHostKeyChecking=no -o UserKnownHostsFile=/dev/null ${USER_NAME}@${HOST_NAME} 'cd /var/www/VTA-Python-Book/ && sudo git pull && sudo mkdocs build -d ./src/ && cp -f ./nginx/conf /etc/nginx/nginx.conf'
+          command: ssh -o StrictHostKeyChecking=no -o UserKnownHostsFile=/dev/null ${USER_NAME}@${HOST_NAME} 'cd /var/www/VTA-Python-Book/ && sudo git pull && sudo mkdocs build -d ./src/ && cp -f ./nginx.conf /etc/nginx/nginx.conf'
 
 workflows:
   build:
