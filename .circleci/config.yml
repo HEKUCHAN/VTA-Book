@@ -9,7 +9,7 @@ jobs:
       - checkout
   deploy:
     machine:
-      image: ubuntu-2004:202201-02
+      enabled: true
     steps:
       - checkout
       - add_ssh_keys
