@@ -8,8 +8,6 @@ jobs:
     steps:
       - checkout
   deploy:
-    machine:
-      image: ubuntu-2004:202201-02
     steps:
       - checkout
       - add_ssh_keys:
