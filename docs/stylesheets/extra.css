@@ -1,3 +1,9 @@
 #logo_icon {
     fill: white;
 }
+
+.md-typeset :is(.emojione,.twemoji,.gemoji) {
+    display: inline-flex;
+    height: 1.125em;
+    vertical-align: middle;
+}
