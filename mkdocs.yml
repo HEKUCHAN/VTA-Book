@@ -91,6 +91,9 @@ extra:
       link: https://twitter.com/Heitor_Hirose
     - icon: fontawesome/brands/instagram
       link: https://www.instagram.com/hirose_heitor/
+  pages:
+    - name: "プライバシーポリシー"
+      link: "/privacy-policy"
 extra_javascript:
   - javascripts/mathjax.js
   - javascripts/shortcuts.js
