@@ -25,7 +25,7 @@
 <!-- End Google Tag Manager -->
 {{ super() }}
 <meta property="og:type" content="website" />
-<meta property="og:title" content="{{ title }}" />
+<meta property="og:title" content="{{ page.title }}" />
 <meta property="og:description" content="{{ config.site_description }}" />
 <meta property="og:url" content="{{ page.canonical_url }}" />
 <meta property="og:image" content="https://opengraph.githubassets.com/44850bae999dccf0687b2973208cb7979af325696b0434b93b93979169641338/HEKUCHAN/VTA-Python-Book" />
@@ -33,7 +33,7 @@
 <meta property="og:image:width" content="1200" />
 <meta property="og:image:height" content="600" />
 <meta name="twitter:card" content="summary_large_image" />
-<meta name="twitter:title" content="{{ title }}" />
+<meta name="twitter:title" content="{{ page.title }}" />
 <meta name="twitter:description" content="{{ config.site_description }}" />
 <meta name="twitter:image" content="https://opengraph.githubassets.com/44850bae999dccf0687b2973208cb7979af325696b0434b93b93979169641338/HEKUCHAN/VTA-Python-Book" />
 {% endblock %}
