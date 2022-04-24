@@ -115,5 +115,5 @@ nav:
       - 1.3 Pythonのインタプリタで遊んでみよう: chapter-1/1.3.0-interpreter.md
       - 1.4 おすすめのファイル管理方法: chapter-1/1.4.0-how-to-save-files.md
       - 1.5 ターミナルの扱い方を学ぼう: chapter-1/1.5.0-how-to-use-terminal.md
-      - 1.6 変数: chapter-1/1.6.0-python-variable.md
+      - 1.6 変数とデータ型: chapter-1/1.6.0-python-variable.md
 
