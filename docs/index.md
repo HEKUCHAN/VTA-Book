@@ -59,4 +59,7 @@
 までよろしくお願いします。
 
 ## 全てのソースコードはGithub上で見つかります。
-※ 工事中 :construction_worker:
+
+<figure markdown>
+[![HEKUCHAN/VTA-Python-Book-Source-Code - GitHub](https://gh-card.dev/repos/HEKUCHAN/VTA-Python-Book-Source-Code.svg)](https://github.com/HEKUCHAN/VTA-Python-Book-Source-Code)
+</figure>
