@@ -116,4 +116,4 @@ nav:
       - 1.4 おすすめのファイル管理方法: chapter-1/1.4.0-how-to-save-files.md
       - 1.5 ターミナルの扱い方を学ぼう: chapter-1/1.5.0-how-to-use-terminal.md
       - 1.6 変数とデータ型: chapter-1/1.6.0-python-variable.md
-
+      - 1.7 文字列型(string): chapter-1/1.7.0-python-string.md
