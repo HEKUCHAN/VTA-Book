@@ -110,4 +110,56 @@ Pythonでは、内包表記というとてもキモくて便利な機能があ�
     print(normal_nums) # -> [1, 2, 3, 4, 5, 6, 7, 8, 9]
     ```
 
-執筆中
+## 辞書内包表記
+
+=== "普通"
+    ```py title="main.py"
+    name_and_price = [
+        ["apple",  100],
+        ["banana", 240],
+        ["mango",  320]
+    ]
+
+    product = {}
+
+    for name, price in name_and_price:
+        product[name] = price
+
+    print(product) # -> {'apple': 100, 'banana': 240, 'mango': 320}
+    ```
+
+=== "内包表記"
+    ```py title="main.py"
+    name_and_price = [
+        ["apple",  100],
+        ["banana", 240],
+        ["mango",  320]
+    ]
+
+    product = {name: price for name, price in name_and_price}
+
+    print(product) # -> {'apple': 100, 'banana': 240, 'mango': 320}
+    ```
+
+## ジェネレータ内包表記
+
+ジェネレータを使うことでメモリーの使用量を多少減らせます。
+ジェネレータについては配列の部分で詳しく解説します。
+
+=== "普通"
+    ```py title="main.py"
+    def nums():
+        for i in range(10):
+            yield i // 2
+
+    print(nums())
+    ```
+
+=== "内包表記"
+    ```py title="main.py"
+    nums = (i // 2 for i in range(10))
+    print(nums) # -> <generator object <genexpr> at 0x152782131ac0>
+    ```
+
+## 参考サイト一覧
+[Python Doc - データ構造](https://docs.python.org/ja/3/tutorial/datastructures.html)
