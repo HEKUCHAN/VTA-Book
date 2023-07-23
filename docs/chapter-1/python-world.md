@@ -9,7 +9,7 @@ tags:
   - Pythonとは
 ---
 
-# 1. ようこそプログラミングの世界へ
+# ようこそプログラミングの世界へ
 
 
 ## :material-language-python: Pythonでできること

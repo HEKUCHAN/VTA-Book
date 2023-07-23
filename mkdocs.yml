@@ -103,21 +103,18 @@ extra_javascript:
 nav:
   - はじめに: index.md
   - Python基礎:
-    - 1.0. Pythonなどのプログラミングの世界: chapter-1/1.0-python-world.md
-    - 1.1 Pythonのインストール:
-      - 1.1a. Pythonインストール MacOS: chapter-1/1.1a-macos-install.md
-      - 1.1b. Pythonインストール Windows10: chapter-1/1.1b-windows-install.md
-    - 1.2 VSCodeのインストールと設定:
-      - 1.2.0 コードエディターとは？: chapter-1/1.2.0-what-CodeEditor.md
-      - 1.2.1 VSCodeのインストール: chapter-1/1.2.1-install-VSCode.md
-      - 1.2.2 VSCodeの設定: chapter-1/1.2.2-setup-VSCode.md
-      - 1.2.3 VSCodeのおすすめプラグイン: chapter-1/1.2.3-plugin-VSCode.md
-    - 1.3 Pythonのインタプリタで遊んでみよう: chapter-1/1.3.0-interpreter.md
-    - 1.4 おすすめのファイル管理方法: chapter-1/1.4.0-how-to-save-files.md
-    - 1.5 ターミナルの扱い方を学ぼう: chapter-1/1.5.0-how-to-use-terminal.md
-    - 1.6 変数とデータ型: chapter-1/1.6.0-python-variable.md
-    - 1.7 文字列型(string): chapter-1/1.7.0-python-string.md
+    - Pythonなどのプログラミングの世界: chapter-1/python-world.md
+    - Pythonのインストール:
+      - Pythonインストール MacOS: chapter-1/macos-install.md
+      - Pythonインストール Windows10: chapter-1/windows-install.md
+    - Pythonのインタプリタで遊んでみよう: chapter-1/interpreter.md
+    - おすすめのファイル管理方法: chapter-1/how-to-save-files.md
+    - ターミナルの扱い方を学ぼう: chapter-1/how-to-use-terminal.md
+    - 変数とデータ型: chapter-1/python-variable.md
+    - 文字列型 - String: chapter-1/python-string.md
+    - 整数型 - Int: chapter-1/python-int.md
+    - 配列型 - List: chapter-1/python-list.md
   - 競技プログラミング Python:
-    - 1.0. Pythonで競プロ: competitive/1.0-competitive-python.md
+    - Pythonで競プロ: competitive/competitive-python.md
     - Tips:
       - 内包表記: competitive/tips/competitive-list-comprehensions.md
