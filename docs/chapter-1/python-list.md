@@ -24,7 +24,7 @@ Pythonの配列型はとても汎用性が高く、ほかの言語と比べて�
 ![Variable](/images/variable/list-variable-dark-mode.png#only-dark){ loading=lazy }
 
 ## Pythonで配列を表す方法
-(上記の図)[/chapter-1/python-list/#_2]をPythonで表すとこのようになります。
+[上記の図](/chapter-1/python-list/#_2)をPythonで表すとこのようになります。
 `fruits`というのが配列の変数名で`["Kiwi", "Orange", "Mango", "Grape"]`は配列の要素です。
 この場合は要素の数は`4個`あります。
 ```py
