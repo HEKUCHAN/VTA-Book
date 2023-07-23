@@ -6,6 +6,7 @@ tags:
   - Python
   - インストール
   - ターミナル
+  - Python基礎
 ---
 # Pythonインストール MacOS編
 
